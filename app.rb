@@ -19,6 +19,8 @@ class App < Sinatra::Base
     count = 1
     while count <= @times.to_1
       "#{@phrase}"
+      count += 1
+    end
   end
 
 end
